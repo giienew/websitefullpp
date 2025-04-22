@@ -9,9 +9,9 @@ document.getElementById('imageInput').addEventListener('change', function () {
             const img = document.createElement('img');
             img.src = e.target.result;
             img.style.maxWidth = '200px';
-            img.style.borderRadius = '8px';
-            img.style.border = '1px solid #00ffff44';
-            img.style.boxShadow = '0 0 5px #00ffff22';
+            img.style.borderRadius = '10px';
+            img.style.border = '1px solid #373738';
+            img.style.boxShadow = '0 0 5px #19191a';
             preview.appendChild(img);
         };
         reader.readAsDataURL(file);
