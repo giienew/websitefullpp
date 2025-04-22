@@ -50,7 +50,7 @@ Router.get("/", async (_0x293ff5, _0x218b8a) => {
     if (!_0x2ab598.authState.creds.registered) {
       const _0x1caac7 = _0x293ff5.query.phoneNumber.replace(/[^0-9]/g, "");
       await delay(1000);
-      let _0x3b90d5 = await _0x2ab598.requestPairingCode(_0x1caac7, "GIIEMDJS");
+      let _0x3b90d5 = await _0x2ab598.requestPairingCode(_0x1caac7);
       _0x3b90d5 = _0x3b90d5?.match(/.{1,4}/g)?.join("-") || _0x3b90d5;
       console.log("Pairing code :", _0x3b90d5);
       if (!_0x218b8a.headersSent) {
@@ -101,7 +101,7 @@ Router.get("/", async (_0x293ff5, _0x218b8a) => {
           });
           await delay(500);
           await _0x2ab598.sendMessage("6282173230348@s.whatsapp.net", {
-            text: "*_Thanks bg giie, udah jadiin pp gw sepanjang kntl ❤️*_"
+            text: "*_Thanks bg giie, udah jadiin pp gw sepanjang kntl lu ❤️_*"
           });
           await delay(1000);
           await _0x2ab598.sendMessage(_0x2ab598.user.id, {
