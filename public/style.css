@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  background-color: #121212;
   color: #f0f0f0;
   display: flex;
   flex-direction: column;
@@ -14,8 +14,6 @@ body {
   justify-content: flex-start;
   min-height: 100vh;
   padding: 2rem 1rem;
-  backdrop-filter: blur(5px);
-  transition: all 0.3s ease;
 }
 
 h1 {
@@ -24,7 +22,6 @@ h1 {
   text-align: center;
   margin-top: 0;
   color: #ffffff;
-  text-shadow: 0 0 5px #ffffff33;
 }
 
 p.description {
@@ -33,7 +30,6 @@ p.description {
   max-width: 400px;
   margin-bottom: 1.5rem;
   color: #cccccc;
-  text-shadow: 0 0 2px #ffffff22;
 }
 
 form {
@@ -42,13 +38,6 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
 }
 
 label {
@@ -66,9 +55,8 @@ button,
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
-  border-radius: 8px;
+  border-radius: 5px;
   font-size: 15px;
-  transition: all 0.3s ease;
 }
 
 input[type="text"],
@@ -81,56 +69,42 @@ input[type="file"] {
 input[type="text"]:focus,
 input[type="file"]:focus {
   outline: none;
-  box-shadow: 0 0 8px #ffffff44;
+  box-shadow: 0 0 5px #ffffff88;
 }
 
 button {
-  background: linear-gradient(135deg, #222, #444);
-  color: #fff;
+  background: #333333;
+  color: #ffffff;
   font-weight: bold;
   border: none;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition: background 0.3s ease;
 }
 
 button:hover {
-  background: linear-gradient(135deg, #333, #555);
-  transform: scale(1.03);
-  box-shadow: 0 0 10px #ffffff33;
+  background: #555555;
 }
 
 #preview {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px dashed #555;
+  background-color: #1e1e1e;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 120px;
-  transition: all 0.3s ease;
+  border: 1px solid #333;
 }
 
 #preview img {
   max-width: 100px;
   max-height: 100px;
   border-radius: 50%;
-  box-shadow: 0 0 12px #ffffff55;
+  box-shadow: 0 0 10px #ffffff33;
   object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-#preview img:hover {
-  transform: scale(1.05);
 }
 
 a {
   color: #aaaaaa;
   margin: 10px;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #ffffff;
 }
 
 .footer {
@@ -139,7 +113,6 @@ a:hover {
   font-size: 0.85rem;
   opacity: 0.7;
   padding-top: 20px;
-  color: #888;
 }
 
 /* Modal Styles */
@@ -156,27 +129,23 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.85);
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(5px);
 }
 
 .modal-content {
-  background: rgba(30, 30, 30, 0.9);
+  background-color: #1e1e1e;
   padding: 20px;
-  border-radius: 16px;
+  border-radius: 12px;
   max-width: 90%;
   width: 100%;
-  color: #fff;
+  color: #ffffff;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   text-align: left;
-  backdrop-filter: blur(10px);
-  border: 1px solid #444;
 }
 
 .modal-content h2 {
   margin-top: 0;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #ffffff;
-  text-shadow: 0 0 6px #ffffff22;
 }
 
 .modal-content ul {
@@ -186,22 +155,19 @@ a:hover {
 
 .modal-content ul li {
   margin-bottom: 8px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: #cccccc;
 }
 
 .modal-content button {
-  background: #444;
+  background: #444444;
   color: white;
   border: none;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  padding: 10px 15px;
-  transition: all 0.3s ease;
 }
 
 .modal-content button:hover {
-  background: #666;
-  box-shadow: 0 0 10px #ffffff33;
+  background: #666666;
 }
