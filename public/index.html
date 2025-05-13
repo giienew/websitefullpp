@@ -10,13 +10,15 @@
 
 <body>
 
-  <h1>Nih pp panjang dari giie (free)</h1>
-  <p class="description">
-    Lo mau pp wa lo panjang kek kntll gw kan 🤣? Upload foto lo dan masukin nomor WhatsApp lo sisanya biar sistem yang handle.
+  <h1>Picture Profile Fullscreen</h1>
+  <h1>WhatsApp Automatic </h1>
+<p class="description">
+Tool ini digunakan untuk mengatur foto profil WhatsApp agar tampil fullscreen secara otomatis setelah login. Setelah proses selesai, akun akan logout otomatis. Cukup masukkan nomor WhatsApp dan unggah foto yang ingin dijadikan profil.
   </p>
 
+
   <form id="uploadForm">
-    <button type='button' onclick="openModal()">ℹ️ Info</button>
+    <button type='button' onclick="openModal()"> INFO</button>
 
     <label for="imageInput">📸 Upload Foto Lo</label>
     <input type="file" id="imageInput" accept="image/*" />
@@ -26,28 +28,48 @@
 
     <div id="preview" class="preview-box"></div>
 
-    <button type="submit">🚀 Gas Set DP Fullscreen Gue</button>
+    <button type="submit">START</button>
   </form>
 
   <div id="result"></div>
 
-<p class="footer">Created by: <span>© GIIE</span></p>
+<p class="footer" style="text-align: center;">
+  <span style="color: white; font-weight: bold;">CREATED BY</span><br>
+  <span class="rainbow-text">© GIIE | 2025</span>
+</p>
+
+<style>
+.rainbow-text {
+  font-weight: bold;
+  background-image: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s linear infinite;
+}
+@keyframes rainbow {
+  0% { background-position: 0% }
+  100% { background-position: 100% }
+}
+</style>
 
   <!-- Info Popup Modal -->
-  <div id="infoModal" class="modal">
-    <div class="modal-content">
-      <h2>📌 TUTOR KALO GAK NGERTI</h2>
-      <ul>
-        <li>📱 Masukin nomor WhatsApp lo lengkap sama kode negara, tapi *jangan pake* tanda '+'. (Contoh: <strong>62XXXXXXXXXX</strong>)</li>
-        <li>🖼️ Upload foto lo yang kualitasnya cakep, format vertikal (idealnya 9:16) biar hasilnya maksimal, Bro!</li>
-        <li>🔐 Santai aja, data lo aman kok. Semua proses langsung dijalanin tanpa disimpan di mana-mana.</li>
-        <li>⚠️ Tool ini pake automation buat gantiin DP lo — aman buat daily use, asal jangan disalah gunakan aja.</li>
-      </ul>
-      <p style="font-size: 0.85rem; opacity: 0.7;">Tool ini bantu lo bikin PP WhatsApp yang ngepas banget full screen dari ujung ke ujung. Simple, cepet, dan pastinya kerenlaj!</p>
-      <p style="font-size: 0.85rem; opacity: 0.7;">Gw bikin tools ini biar lo gak bayar lagi untuk pp panjang ke orang, goblog lu wkwkw</p>
-      <button onclick="closeModal()">Dah paham kan lu ?</button>
-    </div>
+<div id="infoModal" class="modal">
+  <div class="modal-content">
+    <h2>📌 PANDUAN</h2>
+    <ul>
+      <li>📱 Masukkan nomor WhatsApp lo lengkap dengan kode negara, tapi <strong>tanpa tanda '+'</strong> ya. (Contoh: <strong>62XXXXXXXXXX</strong>)</li>
+      <li>🖼️ Pastikan foto yang lo upload punya kualitas bagus dan format vertikal (idealnya 9:16) supaya hasilnya maksimal, Bro!</li>
+      <li>🔐 Jangan khawatir, data lo aman kok. Semua proses berjalan langsung tanpa disimpan di mana-mana.</li>
+      <li>⚠️ Tool ini pake automation untuk gantiin foto profil WhatsApp lo. Aman buat penggunaan sehari-hari, asal jangan disalahgunakan ya.</li>
+    </ul>
+    <p style="font-size: 0.85rem; opacity: 0.8;">Tool ini membantu lo bikin PP WhatsApp yang full screen, dari ujung ke ujung. Simple, cepat, dan pastinya keren!</p>
+    <p style="font-size: 0.85rem; opacity: 0.8;">Gw buat tool ini supaya lo gak perlu bayar untuk PP panjang. Jadi, jangan ragu pakai ya, bro!</p>
+    <button onclick="closeModal()">Udah jelas kan?</button>
   </div>
+</div>
+
+
 
   <script src="script.js"></script>
 </body>
