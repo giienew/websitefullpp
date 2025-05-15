@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Amruth",
+  "author": "giie.",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
