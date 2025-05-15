@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "baileys": "^6.7.16",
+    "baileys": "npm:@fizzxydev/baileys-pro@latest",
     "express": "^5.1.0",
     "jimp": "^0.16.13",
     "multer": "^1.4.5-lts.2",
