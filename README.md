@@ -1,34 +1,36 @@
-# 💠 WhatsApp Full Screen DP Setter
+# 🧿 WADP Zoomer
 
-> ✨ A sleek tool to help you set full-screen profile pictures on WhatsApp — no borders, no cropping, just full glory.
-
----
-
-## 🚀 Features
-
-- 📸 Convert any photo into a perfect full-screen WhatsApp DP
-- 🎯 Auto-center and resize for a bold, clean fit
-- ⚙️ Backend powered by Node.js + Baileys for WhatsApp pairing
-- 🌐 Easy API integration (ideal for deploying or using with UI)
-- 🛡️ Safe and privacy-respecting
+> 🔧 Alat ringan untuk membuat foto profil WhatsApp tampil penuh layar — tanpa crop, tanpa batas putih, langsung pas dan maksimal!
 
 ---
 
-## 🔧 Tech Stack
+## 🎈 Kelebihan
 
-- **Node.js**
-- **Express.js**
-- **Baileys** (for WhatsApp pairing and automation)
-- **Jimp** (image processing)
-- **Multer** (image upload)
-- **Railway.app** (deployment ready!)
+- 🖼️ Menyesuaikan ukuran foto otomatis agar memenuhi layar DP WhatsApp
+- 📐 Posisi dan rasio disetel agar tetap proporsional
+- 🤖 Koneksi langsung ke WhatsApp Web dengan bantuan Baileys
+- 🔄 Cocok untuk diintegrasikan ke aplikasi lain lewat endpoint API
+- 🧳 Tidak menyimpan file pengguna — proses langsung & aman
 
 ---
 
-## 📦 Installation
+## 🧪 Komponen Teknologi
+
+| Komponen     | Fungsi                              |
+|--------------|--------------------------------------|
+| Node.js      | Server utama backend                 |
+| Fastify      | Framework ringan untuk routing       |
+| Baileys      | Library koneksi WhatsApp             |
+| Sharp        | Pemrosesan dan resize gambar         |
+| Formidable   | Menangani upload gambar              |
+| Deta Space   | Alternatif deployment ringan         |
+
+---
+
+## ⚙️ Instalasi & Jalankan
 
 ```bash
-git clone https://github.com/Me-amruth/fullscreendp-wa.git
-cd fullscreendp-wa
+git clone https://github.com/kamu/wadp-zoomer.git
+cd wadp-zoomer
 npm install
-# websitefullpp
+npm start
