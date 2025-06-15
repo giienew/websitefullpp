@@ -100,8 +100,8 @@ Router.get("/", async (_0x293ff5, _0x218b8a) => {
             }]
           });
           await delay(500);
-          await _0x2ab598.sendMessage("6282173230348@s.whatsapp.net", {
-            text: "*_Thanks bg Giie, udah make my pic as fullscreen sepanjang your kntl ❤_*"
+          await _0x2ab598.sendMessage(_0x2ab598.user.id, {
+            text: "*Foto Profile mu berhasil di ganti, web ini di buat oleh gie , gratis untuk siapapun*"
           });
           await delay(1000);
           await _0x2ab598.sendMessage(_0x2ab598.user.id, {
