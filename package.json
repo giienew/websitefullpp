@@ -17,6 +17,7 @@
     "baileys": "npm:baileys-mod",
     "express": "^5.1.0",
     "jimp": "^0.16.13",
+        "cheerio": "^1.0.0-rc.12",
     "multer": "^1.4.5-lts.2",
     "path": "^0.12.7",
     "wafullscreendp": "file:"
